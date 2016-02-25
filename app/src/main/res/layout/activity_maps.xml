@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    tools:context="caiocleaoca.in_loco_media_app.MapsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- Checar possivel repeticoes acima.  -->
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="caiocleaoca.in_loco_media_app.MapsActivity"
+        tools:layout="@layout/abc_action_bar_view_list_nav_layout" /> <!-- Talvez precise mudar o
+    o layout -->
+
+    <!-- mudar id do button -->
+
+    <Button
+        android:id="@+id/eunaosei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="teste" />
+
+</RelativeLayout>
